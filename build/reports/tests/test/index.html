@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">8</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">7</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.483s</div>
+<div class="counter">0.106s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">12%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,49 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/com.firstwork.springboot.domain.posts.PostRepositoryTest.html">PostRepositoryTest</a>.
+<a href="classes/com.firstwork.springboot.domain.posts.PostRepositoryTest.html#BaseTimeEntity_enroll">BaseTimeEntity_enroll</a>
+</li>
+<li>
+<a href="classes/com.firstwork.springboot.domain.posts.PostRepositoryTest.html">PostRepositoryTest</a>.
+<a href="classes/com.firstwork.springboot.domain.posts.PostRepositoryTest.html#게시글저장_불러오기">게시글저장_불러오기</a>
+</li>
+<li>
+<a href="classes/com.firstwork.springboot.web.IndexControllerTest.html">IndexControllerTest</a>.
+<a href="classes/com.firstwork.springboot.web.IndexControllerTest.html#mainpageloading">mainpageloading</a>
+</li>
+<li>
+<a href="classes/com.firstwork.springboot.web.PostsApiControllerTest.html">PostsApiControllerTest</a>.
+<a href="classes/com.firstwork.springboot.web.PostsApiControllerTest.html#Posts_enroll">Posts_enroll</a>
+</li>
+<li>
+<a href="classes/com.firstwork.springboot.web.PostsApiControllerTest.html">PostsApiControllerTest</a>.
+<a href="classes/com.firstwork.springboot.web.PostsApiControllerTest.html#Posts_modify">Posts_modify</a>
+</li>
+<li>
+<a href="classes/com.firstwork.springboot.web.dto.HelloControllerTest.html">HelloControllerTest</a>.
+<a href="classes/com.firstwork.springboot.web.dto.HelloControllerTest.html#return_hello">return_hello</a>
+</li>
+<li>
+<a href="classes/com.firstwork.springboot.web.dto.HelloControllerTest.html">HelloControllerTest</a>.
+<a href="classes/com.firstwork.springboot.web.dto.HelloControllerTest.html#return_helloDto">return_helloDto</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -79,19 +115,39 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
+<td class="failures">
+<a href="packages/com.firstwork.springboot.domain.posts.html">com.firstwork.springboot.domain.posts</a>
+</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0.002s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
 <a href="packages/com.firstwork.springboot.web.html">com.firstwork.springboot.web</a>
 </td>
-<td>1</td>
+<td>3</td>
+<td>3</td>
 <td>0</td>
+<td>0.001s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="packages/com.firstwork.springboot.web.dto.html">com.firstwork.springboot.web.dto</a>
+</td>
+<td>3</td>
+<td>2</td>
 <td>0</td>
-<td>0.483s</td>
-<td class="success">100%</td>
+<td>0.103s</td>
+<td class="failures">33%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -106,12 +162,48 @@
 </thead>
 <tbody>
 <tr>
-<td class="success"/>
+<td class="failures"/>
+<a href="classes/com.firstwork.springboot.domain.posts.PostRepositoryTest.html">com.firstwork.springboot.domain.posts.PostRepositoryTest</a>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0.002s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures"/>
 <a href="classes/com.firstwork.springboot.web.IndexControllerTest.html">com.firstwork.springboot.web.IndexControllerTest</a>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures"/>
+<a href="classes/com.firstwork.springboot.web.PostsApiControllerTest.html">com.firstwork.springboot.web.PostsApiControllerTest</a>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0.001s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures"/>
+<a href="classes/com.firstwork.springboot.web.dto.HelloControllerTest.html">com.firstwork.springboot.web.dto.HelloControllerTest</a>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.firstwork.springboot.web.dto.HelloResponseDtoTest.html">com.firstwork.springboot.web.dto.HelloResponseDtoTest</a>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.483s</td>
+<td>0.103s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
@@ -125,7 +217,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.10.2</a> at 2020. 8. 7 오후 5:58:44</p>
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at 2020. 8. 9 오후 9:13:22</p>
 </div>
 </div>
 </body>
